@@ -1,0 +1,54 @@
+img {
+    height: 200px;
+    border: 15px groove gold;
+    margin: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+h3 {
+    border: 3px groove magenta;
+    border-top: dotted;
+    border-bottom: dotted;
+    padding: 3px;
+}
+
+p {
+    border: 4px dashed red;
+    border-top: ridge;
+    border-bottom: ridge;
+    margin: 3px;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.GermanShepherd {
+    border: 25px ridge #572f10;
+}
+
+.babykitten1 {
+    border: 20px inset #575610;
+}
+
+.babykitten2 {
+    border: 25px double #125710;
+}
+
+/* yes there are more one sides properties you can use */
+/* the used one sided properties or in my CSS code for img,h3, and p selectors */
+
+ul {
+    border: 15px solid gold;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* border, margin, and padding properties makes the whole piece of the ul tag in one box all together */
+
+li { 
+    border: 15px solid gold;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* border, margin, padding properties makes the li tags indivdually get the properties apllied on them */
